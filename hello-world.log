@@ -1,0 +1,81 @@
+13:43:21,881 DEBUG SQL:109 - 
+    insert 
+    into
+        message
+        (TEXT) 
+    values
+        (?)
+13:43:21,894 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello World with Hibernate as JPA Provider]
+13:54:27,892 DEBUG SQL:109 - 
+    insert 
+    into
+        message
+        (TEXT) 
+    values
+        (?)
+13:54:27,904 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:54:27,953 DEBUG SQL:109 - 
+    select
+        message0_.ID as ID1_0_0_,
+        message0_.TEXT as TEXT2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+13:54:27,956 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:54:27,973 DEBUG SQL:109 - 
+    update
+        message 
+    set
+        TEXT=? 
+    where
+        ID=?
+13:54:27,973 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hi]
+13:54:27,974 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+14:05:35,538 DEBUG SQL:109 - 
+    select
+        message0_.ID as ID1_0_0_,
+        message0_.TEXT as TEXT2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+14:05:35,621 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [7]
+14:05:35,634 DEBUG SQL:109 - 
+    select
+        message0_.ID as ID1_0_0_,
+        message0_.TEXT as TEXT2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+14:05:35,635 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [7]
+14:05:35,639 DEBUG SQL:109 - 
+    select
+        message0_.ID as ID1_0_0_,
+        message0_.TEXT as TEXT2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+14:05:35,639 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [7]
+14:05:35,644 DEBUG SQL:109 - 
+    select
+        message0_.ID as ID1_0_0_,
+        message0_.TEXT as TEXT2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+14:05:35,645 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [7]
+14:10:51,842 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+14:10:51,871 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
